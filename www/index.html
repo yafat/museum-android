@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+ -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <title>Taiwan Museum</title>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" />
+		<link rel="stylesheet" href="css/jqm/jquery.mobile-1.4.2.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile-1.4.2.min.js"></script>
+	</head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+			</script>
+		<div data-role="page" id="page-login" class="jqm-demos" data-quicklinks="true">
+			
+			<div role="main" class="ui-content jqm-content">
+				<div style="height:100px"></div>
+				<h1>國立台灣博物館</h1>
+				<div style="text-align:center">
+					<p><img src="img/icon.png" /></p>
+					<p>⾏動互動導覽APP</p>
+					<p><button class="ui-btn">ＦaceBook 登入</button></p>
+					<p> </p>
+					<p><a href="#page-main">skip</a></p>
+				</div>
+				<div><p class="stext">© 2014 Comfort creative lab x Redblacksdesigns</p></div>
+			</div><!-- /panel -->
+			
+			
+		</div><!-- /page -->
+		<div data-role="page" id="page-main" class="jqm-demos" data-quicklinks="true">
+			
+			<div data-role="header" class="jqm-header">
+				<h2><a title="⾏動互動導覽APP">⾏動互動導覽APP</a></h2>
+			</div><!-- /header -->
+			
+			<div role="main" class="ui-content jqm-content">
+				<p class="map">
+					地圖 ＣＳＳ 請在 index.css 定義
+				</p>
+					<ul data-role="listview">
+						<li><a onclick="showpage('page-detail','A');">A區:尋找南⽅方四島</a></li>
+						<li><a onclick="showpage('page-detail','B');">￼B區:隱世的美麗秘境</a></li>
+						￼￼￼￼<li><a onclick="showpage('page-detail','C');">C區:神秘的巨⼈人牆</a></li>
+						￼￼￼￼<li>￼￼￼￼<a onclick="showpage('page-detail','D');">D區:神秘花園</a></li>
+						￼￼￼￼￼￼￼<li><a onclick="showpage('page-detail','E');">E區:巨⼈人腳下的海底樂園</a></li>
+						￼￼￼￼￼<li><a onclick="showpage('page-detail','F');">F區:被遺忘的南境之村</a></li>
+						<li>￼￼<a onclick="showpage('page-detail','G');">G區:潘朵拉的省思</a></li>
+					</ul>
+			</div><!-- /panel -->
+		</div><!-- /page -->
+		<div data-role="page" id="page-detail" class="jqm-demos" data-quicklinks="true">
+			
+			<div data-role="header" class="jqm-header">
+				<h2><a title="⾏動互動導覽APP">⾏動互動導覽APP</a></h2>
+			</div><!-- /header -->
+			
+			<div role="main" class="ui-content jqm-content">
+				<div style="width:100%; height:50px; background:#ccc;">分區主視覺圖片</div>
+				<h1>B 隱世的美麗秘境 南⽅方四島的⾃自然環境</h1>
+				<p>⼩小雲雀:哎呀~ 這裡的東北季⾵風還真強,差點就要跌跤了。看看著四⽅方平坦、 四邊陡峭的島型,也難怪⽇日⽇日強⾵風啊~ 幸好這邊氣候宜⼈人, 也難怪⼈人類會定居在此美麗秘境。
+				B1 - 氣候與海流 澎湖南⽅方四島位於澎湖望安島東南⽅方海域, 四島均為上⽅方平坦、四邊陡峭的⽅方⼭山島嶼, 氣候為多⾵風少⾬雨⽽而乾燥的類型,受季⾵風、海流、
+				</p>
+			</div><!-- /panel -->
+			
+			
+		</div><!-- /page -->
+    </body>
+</html>
