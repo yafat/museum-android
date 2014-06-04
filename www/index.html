@@ -36,9 +36,9 @@
         <script type="text/javascript">
             app.initialize();
 			</script>
-		<div data-role="page" id="page-login" class="jqm-demos" data-quicklinks="true">
+		<div data-role="page" id="page-login" data-quicklinks="true">
 			
-			<div role="main" class="ui-content jqm-content">
+			<div role="main" class="ui-content">
 				<div style="height:100px"></div>
 				<h1>國立台灣博物館</h1>
 				<div style="text-align:center">
@@ -50,37 +50,49 @@
 				</div>
 				<div><p class="stext">© 2014 Comfort creative lab x Redblacksdesigns</p></div>
 			</div><!-- /panel -->
+			<div class="msg"></div>
 			
 			
 		</div><!-- /page -->
-		<div data-role="page" id="page-main" class="jqm-demos" data-quicklinks="true">
+		
+		<div data-role="page" id="page-main" data-quicklinks="true">
 			
-			<div data-role="header" class="jqm-header">
+			<div data-role="header">
 				<h2><a title="⾏動互動導覽APP">⾏動互動導覽APP</a></h2>
+				<a href="#page-login">登出</a>
 			</div><!-- /header -->
 			
-			<div role="main" class="ui-content jqm-content">
-				<p class="map">
-					地圖 ＣＳＳ 請在 index.css 定義
-				</p>
-					<ul data-role="listview">
-						<li><a onclick="showpage('page-detail','A');">A區:尋找南⽅方四島</a></li>
-						<li><a onclick="showpage('page-detail','B');">￼B區:隱世的美麗秘境</a></li>
-						￼￼￼￼<li><a onclick="showpage('page-detail','C');">C區:神秘的巨⼈人牆</a></li>
-						￼￼￼￼<li>￼￼￼￼<a onclick="showpage('page-detail','D');">D區:神秘花園</a></li>
-						￼￼￼￼￼￼￼<li><a onclick="showpage('page-detail','E');">E區:巨⼈人腳下的海底樂園</a></li>
-						￼￼￼￼￼<li><a onclick="showpage('page-detail','F');">F區:被遺忘的南境之村</a></li>
-						<li>￼￼<a onclick="showpage('page-detail','G');">G區:潘朵拉的省思</a></li>
-					</ul>
+			<div role="main" class="ui-content">
+				<div class="map">
+					<div class="map-zone" id="A">A</div>
+					<div class="map-zone" id="B">B</div>
+					<div class="map-zone" id="C">C</div>
+					<div class="map-zone" id="D">D</div>
+					<div class="map-zone" id="E">E</div>
+					<div class="map-zone" id="F">F</div>
+					<div class="map-zone" id="G">G</div>
+					<div class="map-zone" id="H">H</div>
+				</div>
+				<ul data-role="listview">
+					<li><a onclick="showpage('page-detail','A');">A區:尋找南⽅方四島</a></li>
+					<li><a onclick="showpage('page-detail','B');">￼B區:隱世的美麗秘境</a></li>
+					￼￼￼￼<li><a onclick="showpage('page-detail','C');">C區:神秘的巨⼈人牆</a></li>
+					￼￼￼￼<li>￼￼￼￼<a onclick="showpage('page-detail','D');">D區:神秘花園</a></li>
+					￼￼￼￼￼￼￼<li><a onclick="showpage('page-detail','E');">E區:巨⼈人腳下的海底樂園</a></li>
+					￼￼￼￼￼<li><a onclick="showpage('page-detail','F');">F區:被遺忘的南境之村</a></li>
+					<li>￼￼<a onclick="showpage('page-detail','G');">G區:潘朵拉的省思</a></li>
+				</ul>
+				<div class="msg"></div>
 			</div><!-- /panel -->
 		</div><!-- /page -->
-		<div data-role="page" id="page-detail" class="jqm-demos" data-quicklinks="true">
+		<div data-role="page" id="page-detail" data-quicklinks="true">
 			
-			<div data-role="header" class="jqm-header">
+			<div data-role="header">
 				<h2><a title="⾏動互動導覽APP">⾏動互動導覽APP</a></h2>
+				<a href="#page-main">回上頁</a>
 			</div><!-- /header -->
 			
-			<div role="main" class="ui-content jqm-content">
+			<div role="main" class="ui-content">
 				<div style="width:100%; height:50px; background:#ccc;">分區主視覺圖片</div>
 				<h1>B 隱世的美麗秘境 南⽅方四島的⾃自然環境</h1>
 				<p>⼩小雲雀:哎呀~ 這裡的東北季⾵風還真強,差點就要跌跤了。看看著四⽅方平坦、 四邊陡峭的島型,也難怪⽇日⽇日強⾵風啊~ 幸好這邊氣候宜⼈人, 也難怪⼈人類會定居在此美麗秘境。

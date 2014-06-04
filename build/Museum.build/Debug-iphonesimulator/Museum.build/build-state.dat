@@ -1,0 +1,1404 @@
+TMuseum
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Info.plist /Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Museum/Resources/icons/icon-76.png build/emulator/Museum.app/icon-76.png
+cCpResource Museum/Resources/icons/icon-40@2x.png build/emulator/Museum.app/icon-40@2x.png
+cCpResource Museum/Resources/icons/icon-72.png build/emulator/Museum.app/icon-72.png
+cCpResource Museum/Resources/icons/icon.png build/emulator/Museum.app/icon.png
+cCpResource Museum/Resources/icons/icon@2x.png build/emulator/Museum.app/icon@2x.png
+cCopyStringsFile /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/en.lproj/Localizable.strings Museum/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.xib
+cCpResource Museum/Resources/icons/icon-50.png build/emulator/Museum.app/icon-50.png
+cCpResource Museum/Resources/icons/icon-60@2x.png build/emulator/Museum.app/icon-60@2x.png
+cCopyStringsFile /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/de.lproj/Localizable.strings Museum/Resources/de.lproj/Localizable.strings
+cCpResource Museum/Resources/icons/icon-small.png build/emulator/Museum.app/icon-small.png
+cCpResource Museum/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Museum.app/Default-Landscape@2x~ipad.png
+cCpResource Museum/Resources/splash/Default-Landscape~ipad.png build/emulator/Museum.app/Default-Landscape~ipad.png
+cCpResource Museum/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Museum.app/Default-Portrait@2x~ipad.png
+cCpResource Museum/Resources/icons/icon-small@2x.png build/emulator/Museum.app/icon-small@2x.png
+cCpResource Museum/Resources/splash/Default-Portrait~ipad.png build/emulator/Museum.app/Default-Portrait~ipad.png
+cCpResource Museum/Resources/icons/icon-40.png build/emulator/Museum.app/icon-40.png
+cCpResource Museum/Resources/splash/Default@2x~iphone.png build/emulator/Museum.app/Default@2x~iphone.png
+cCpResource Museum/Resources/icons/icon-60.png build/emulator/Museum.app/icon-60.png
+cCpResource Museum/Resources/splash/Default~iphone.png build/emulator/Museum.app/Default~iphone.png
+cCpResource Museum/Resources/splash/Default-568h@2x~iphone.png build/emulator/Museum.app/Default-568h@2x~iphone.png
+cCpResource Museum/Resources/icons/icon-50@2x.png build/emulator/Museum.app/icon-50@2x.png
+cCpResource Museum/Resources/icons/icon-76@2x.png build/emulator/Museum.app/icon-76@2x.png
+cCpResource Museum/Resources/icons/icon-72@2x.png build/emulator/Museum.app/icon-72@2x.png
+cCpResource Museum/Resources/CDVNotification.bundle build/emulator/Museum.app/CDVNotification.bundle
+cProcessPCH /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch.pch Museum/Museum-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/main.o /Users/yachilin/Desktop/museum/platforms/ios/Museum/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/AppDelegate.o /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/MainViewController.o /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/CDVNotification.o /Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/org.apache.cordova.dialogs/CDVNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/EstimoteBeacons.o /Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Museum normal i386
+cGenerateDSYMFile /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app.dSYM /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Museum
+cTouch /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053589B7A00000000000003B4
+t1398315898
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531149D9000000000000019E
+t1393641945
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000053589B950000000000484210
+t1398315925
+s4735504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c0000000053589B940000000000098030
+t1398315924
+s622640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000053589B930000000000059340
+t1398315923
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000053589B960000000000904120
+t1398315926
+s9453856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000053589B96000000000058E0E0
+t1398315926
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+c0000000053589B950000000000066480
+t1398315925
+s418944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000053589B9700000000005B82F0
+t1398315927
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053589B970000000000446820
+t1398315927
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000053589B9700000000000F1A80
+t1398315927
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000053589B98000000000013B8C0
+t1398315928
+s1292480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053589B9C000000000088D8C0
+t1398315932
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000053589BA000000000001BE790
+t1398315936
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000053589BA2000000000013FD70
+t1398315938
+s1310064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000053589BA300000000001081C0
+t1398315939
+s1081792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053589BAA0000000001F1DE10
+t1398315946
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c000000005358A9DB00000000002BC360
+t1398319579
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c000000005358A9F60000000000002338
+t1398319606
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c000000005358A9F9000000000008D370
+t1398319609
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c000000005358A9F90000000000392E20
+t1398319609
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c00000000537EB8C200000000000141F0
+t1400813762
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c000000005358A9FA0000000000014A80
+t1398319610
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c000000005358A9FA0000000000033BA0
+t1398319610
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c000000005358A9FA000000000001CFB0
+t1398319610
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c000000005358A9FA000000000001B2B0
+t1398319610
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c000000005358A9FA00000000000C9570
+t1398319610
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c000000005358A9FA0000000000063280
+t1398319610
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c000000005358A9FA0000000000008880
+t1398319610
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c000000005358A9FA0000000000015080
+t1398319610
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c000000005358A9FA00000000000230F0
+t1398319610
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c000000005358A9FA000000000000E380
+t1398319610
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c000000005358A9FA0000000000089380
+t1398319610
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c000000005358A9FA0000000000017320
+t1398319610
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c000000005358A9FA0000000000039CD0
+t1398319610
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c000000005358A9FA000000000000B0B0
+t1398319610
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c000000005358A9FB0000000000167E80
+t1398319611
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c000000005358A9FA00000000000106A0
+t1398319610
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c000000005358A9FA000000000001CE40
+t1398319610
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c000000005358A9FA00000000000740C0
+t1398319610
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c000000005358A9FB000000000006CA60
+t1398319611
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c000000005358A9FA000000000001BAD0
+t1398319610
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c000000005358A9FB0000000000084A20
+t1398319611
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c000000005358AF45000000000000514C
+t1398320965
+s20812
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/AppDelegate.h
+c000000005386A84700000000000005B1
+t1401333831
+s1457
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/AppDelegate.m
+c000000005386A84700000000000013A3
+t1401333831
+s5027
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.h
+c000000005386A84700000000000004CC
+t1401333831
+s1228
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.m
+c000000005386A8470000000000001267
+t1401333831
+s4711
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.xib
+c000000005386A8460000000000001759
+t1401333830
+s5977
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Info.plist
+c00000000538EC8110000000000000A0D
+t1401866257
+s2573
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Prefix.pch
+c000000005386A84700000000000003BD
+t1401333831
+s957
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/org.apache.cordova.dialogs/CDVNotification.h
+c00000000538EBD6100000000000004E9
+t1401863521
+s1257
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/org.apache.cordova.dialogs/CDVNotification.m
+c00000000538EBD6100000000000016A3
+t1401863521
+s5795
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/ESTBeacon.h
+c00000000538763A500000000000026BC
+t1401381797
+s9916
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/ESTBeaconDefinitions.h
+c00000000538763A500000000000005EF
+t1401381797
+s1519
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/ESTBeaconManager.h
+c00000000538763A50000000000001BD3
+t1401381797
+s7123
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/ESTBeaconRegion.h
+c00000000538763A50000000000000966
+t1401381797
+s2406
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/ESTBeaconUpdateInfo.h
+c00000000538763A50000000000000177
+t1401381797
+s375
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.h
+c00000000538763A50000000000000179
+t1401381797
+s377
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.m
+c00000000538EC80A0000000000005A10
+t1401866250
+s23056
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/libEstimoteSDK.a
+c00000000538763A5000000000031671C
+t1401381797
+s3237660
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/CDVNotification.bundle
+c00000000538EBD610000000000000066
+t1401863521
+s102
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/de.lproj/Localizable.strings
+c000000005386A84600000000000004C0
+t1401333830
+s1216
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/en.lproj/Localizable.strings
+c000000005386A84600000000000004AB
+t1401333830
+s1195
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-40.png
+c00000000537C16870000000000000BCF
+t1400641159
+s3023
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-40@2x.png
+c00000000537C167B00000000000015B9
+t1400641147
+s5561
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-50.png
+c00000000537C166A0000000000000E65
+t1400641130
+s3685
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-50@2x.png
+c00000000537C165C0000000000001AF3
+t1400641116
+s6899
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-60.png
+c00000000537C164600000000000010AB
+t1400641094
+s4267
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-60@2x.png
+c00000000537C163500000000000020E8
+t1400641077
+s8424
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-72.png
+c00000000537C160600000000000015FA
+t1400641030
+s5626
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-72@2x.png
+c00000000537C16200000000000002741
+t1400641056
+s10049
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-76.png
+c00000000537C15E9000000000000153F
+t1400641001
+s5439
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-76@2x.png
+c00000000537C15D7000000000000240B
+t1400640983
+s9227
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-small.png
+c00000000537C16CC0000000000000940
+t1400641228
+s2368
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-small@2x.png
+c00000000537C16A70000000000001057
+t1400641191
+s4183
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon.png
+c00000000537C171B0000000000000FF1
+t1400641307
+s4081
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon@2x.png
+c00000000537C170A0000000000001F0D
+t1400641290
+s7949
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default-568h@2x~iphone.png
+c00000000537C20600000000000003D86
+t1400643680
+s15750
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000053678BEE0000000000006096
+t1399294958
+s24726
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default-Landscape~ipad.png
+c00000000537C1F1400000000000025EC
+t1400643348
+s9708
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000537C1D52000000000000648A
+t1400642898
+s25738
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default-Portrait~ipad.png
+c00000000537C1EF60000000000002771
+t1400643318
+s10097
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default@2x~iphone.png
+c00000000537C1F76000000000000350D
+t1400643446
+s13581
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default~iphone.png
+c00000000537C1F84000000000000187E
+t1400643460
+s6270
+
+N/Users/yachilin/Desktop/museum/platforms/ios/Museum/main.m
+c000000005386A8470000000000000458
+t1401333831
+s1112
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/AppDelegate.o
+t1401383285
+s73932
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/CDVNotification.o
+t1401866153
+s68416
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/EstimoteBeacons.o
+t1401866261
+s135444
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/MainViewController.o
+t1401383285
+s51516
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/Museum.LinkFileList
+c00000000538EC7A800000000000002A1
+t1401866152
+s673
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/main.o
+t1401383285
+s2948
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Script-304B58A110DAC018002A0835.sh
+c0000000053876970000000000000002D
+t1401383280
+s45
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app
+t1401866262
+s1054
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app.dSYM
+t1401383286
+s102
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/CDVNotification.bundle
+t1401866153
+s102
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default-568h@2x~iphone.png
+t1401383281
+s15750
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default-Landscape@2x~ipad.png
+t1401383281
+s24726
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default-Landscape~ipad.png
+t1401383281
+s9708
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default-Portrait@2x~ipad.png
+t1401383281
+s25738
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default-Portrait~ipad.png
+t1401383281
+s10097
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default@2x~iphone.png
+t1401383281
+s13581
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default~iphone.png
+t1401383281
+s6270
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Info.plist
+t1401866259
+s1273
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/MainViewController.nib
+t1401383283
+s836
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Museum
+t1401866262
+s552644
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/PkgInfo
+t2
+s0
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/de.lproj/Localizable.strings
+t1401383281
+s280
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/en.lproj/Localizable.strings
+t1401383281
+s166
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-40.png
+t1401383281
+s3023
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-40@2x.png
+t1401383281
+s5561
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-50.png
+t1401383281
+s3685
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-50@2x.png
+t1401383281
+s6899
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-60.png
+t1401383281
+s4267
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-60@2x.png
+t1401383281
+s8424
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-72.png
+t1401383281
+s5626
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-72@2x.png
+t1401383281
+s10049
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-76.png
+t1401383281
+s5439
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-76@2x.png
+t1401383281
+s9227
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-small.png
+t1401383281
+s2368
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-small@2x.png
+t1401383281
+s4183
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon.png
+t1401383281
+s4081
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon@2x.png
+t1401383281
+s7949
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDV.h
+c000000005387696C0000000000000516
+t1401383276
+s1302
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+c000000005387696C0000000000000CFB
+t1401383276
+s3323
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+c000000005387696C00000000000008BA
+t1401383276
+s2234
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+c000000005387696C00000000000004E2
+t1401383276
+s1250
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+c000000005387696C0000000000000503
+t1401383276
+s1283
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+c000000005387696C0000000000000401
+t1401383276
+s1025
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+c000000005387696C00000000000007E6
+t1401383276
+s2022
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+c000000005387696C00000000000003DA
+t1401383276
+s986
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+c000000005387696C00000000000006CF
+t1401383276
+s1743
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+c000000005387696C0000000000000892
+t1401383276
+s2194
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+c000000005387696C0000000000000C13
+t1401383276
+s3091
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+c000000005387696C0000000000000408
+t1401383276
+s1032
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+c000000005387696C000000000000038D
+t1401383276
+s909
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+c000000005387696C000000000000041C
+t1401383276
+s1052
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+c000000005387696C0000000000000ACC
+t1401383276
+s2764
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+c000000005387696C00000000000004B4
+t1401383276
+s1204
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+c000000005387696C0000000000000392
+t1401383276
+s914
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+c000000005387696C000000000000037D
+t1401383276
+s893
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+c000000005387696C00000000000005DA
+t1401383276
+s1498
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+c000000005387696C00000000000003A0
+t1401383276
+s928
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+c000000005387696C0000000000000476
+t1401383276
+s1142
+
+N/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/libCordova.a
+c000000005387697000000000000D3618
+t1401383280
+s865816
+
+N/usr/lib/libSystem.B.dylib
+c00000000537EB892000000000000E6D0
+t1400813714
+s59088
+
+N/usr/lib/system/libcache.dylib
+c00000000535887BA0000000000012A00
+t1398310842
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000053588774000000000002E320
+t1398310772
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c00000000535887950000000000021860
+t1398310805
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c00000000535887B8000000000001B620
+t1398310840
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c00000000535887B800000000000BD920
+t1398310840
+s776480
+
+N/usr/lib/system/libkeymgr.dylib
+c00000000535887B9000000000000A120
+t1398310841
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c00000000535938F1000000000001D550
+t1398356209
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c00000000535887B70000000000014EE0
+t1398310839
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c00000000535887BE0000000000010380
+t1398310846
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c00000000535887BE000000000000C4C0
+t1398310846
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c00000000535887BA00000000000357A0
+t1398310842
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c00000000535887BA000000000000C070
+t1398310842
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000535938730000000000168D00
+t1398356083
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000537EB8B90000000000010630
+t1400813753
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c00000000535938F2000000000001DF10
+t1398356210
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c00000000535887950000000000075B00
+t1398310805
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c00000000537EB892000000000007CD60
+t1400813714
+s511328
+
+N/usr/lib/system/libsystem_m.dylib
+c000000005358879500000000000766C0
+t1398310805
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000535938F10000000000044DC0
+t1398356209
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c00000000535887950000000000021FA0
+t1398310805
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c00000000535938F1000000000002D920
+t1398356209
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c00000000535887BB000000000001E570
+t1398310843
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c00000000537EB8A7000000000000CC70
+t1400813735
+s52336
+
+N/usr/lib/system/libunc.dylib
+c00000000535887AC000000000000C3F0
+t1398310828
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c00000000535887BB00000000000199F0
+t1398310843
+s104944
+
+N/var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch.pch
+t1401383285
+s5376836
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf5f2e393ff3eb941^f3e2e493ff3eb941^---0#1#1#--18"Check dependencies36"64CFE678-E15F-4168-9522-C41AA98772FC-
+
+CCompileC build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/AppDelegate.o /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423076085.465929
+e423076085.641487
+r1
+xCompileC
+xbuild/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/AppDelegate.o
+x/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/AppDelegate.m
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/AppDelegate.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/AppDelegate.m209"[1mCompileC[0m build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/AppDelegate.o [1mMuseum/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd78577f5a037b941^423ea4f5a037b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/AppDelegate.m0000000000000000^3588"[1mCompileC[0m build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/AppDelegate.o [1mMuseum/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yachilin/Desktop/museum/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-generated-files.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-own-target-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-all-target-headers.hmap -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-project-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/usr/local/lib/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/UninstalledProducts/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources/i386 -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources -F/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -include /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch -MMD -MT dependencies -MF /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/AppDelegate.dia -c /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/AppDelegate.m -o /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/AppDelegate.o36"4EB16079-D626-433F-9A7A-017728F860EA-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCompileC build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/CDVNotification.o /Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/org.apache.cordova.dialogs/CDVNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423558953.652182
+e423558953.908971
+r1
+xCompileC
+xbuild/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/CDVNotification.o
+x/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/org.apache.cordova.dialogs/CDVNotification.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/org.apache.cordova.dialogs/CDVNotification.m
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/org.apache.cordova.dialogs/CDVNotification.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/org.apache.cordova.dialogs/CDVNotification.m244"[1mCompileC[0m build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/CDVNotification.o [1mMuseum/Plugins/org.apache.cordova.dialogs/CDVNotification.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileree23a729ff3eb941^42b2e829ff3eb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/org.apache.cordova.dialogs/CDVNotification.m0000000000000000^3666"[1mCompileC[0m build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/CDVNotification.o [1mMuseum/Plugins/org.apache.cordova.dialogs/CDVNotification.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yachilin/Desktop/museum/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-generated-files.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-own-target-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-all-target-headers.hmap -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-project-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/usr/local/lib/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/UninstalledProducts/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources/i386 -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources -F/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -include /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch -MMD -MT dependencies -MF /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/CDVNotification.d --serialize-diagnostics /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/CDVNotification.dia -c /Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/org.apache.cordova.dialogs/CDVNotification.m -o /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/CDVNotification.o36"F95B85CF-99A6-4B7C-ABAD-9734ADE8583B-
+b1E75D6AE-2E23-42BA-A213-A28873130C61
+
+CCompileC build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/EstimoteBeacons.o /Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423559061.560084
+e423559061.908709
+r1
+xCompileC
+xbuild/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/EstimoteBeacons.o
+x/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.m
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDV.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.h
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/ESTBeaconManager.h
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/ESTBeaconRegion.h
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/ESTBeacon.h
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/ESTBeaconDefinitions.h
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/ESTBeaconUpdateInfo.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.m248"[1mCompileC[0m build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/EstimoteBeacons.o [1mMuseum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbc938f95ff3eb941^1ec6e895ff3eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.m0000000000000000^3674"[1mCompileC[0m build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/EstimoteBeacons.o [1mMuseum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yachilin/Desktop/museum/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-generated-files.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-own-target-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-all-target-headers.hmap -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-project-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/usr/local/lib/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/UninstalledProducts/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources/i386 -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources -F/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -include /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch -MMD -MT dependencies -MF /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/EstimoteBeacons.d --serialize-diagnostics /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/EstimoteBeacons.dia -c /Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/EstimoteBeacons.m -o /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/EstimoteBeacons.o36"1469192D-2619-4134-AACD-5832DC495097-
+bBB1E0605-4BC0-424D-B575-6EC6ECFD9641
+
+CCompileC build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/MainViewController.o /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423076085.513972
+e423076085.641552
+r1
+xCompileC
+xbuild/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/MainViewController.o
+x/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.m
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.m223"[1mCompileC[0m build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/MainViewController.o [1mMuseum/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf60c85f5a037b941^2fbea4f5a037b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.m0000000000000000^3630"[1mCompileC[0m build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/MainViewController.o [1mMuseum/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yachilin/Desktop/museum/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-generated-files.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-own-target-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-all-target-headers.hmap -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-project-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/usr/local/lib/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/UninstalledProducts/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources/i386 -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources -F/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -include /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch -MMD -MT dependencies -MF /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/MainViewController.dia -c /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.m -o /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/MainViewController.o36"5D840BA2-81E2-43E6-983F-C85896B7A092-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCompileC build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/main.o /Users/yachilin/Desktop/museum/platforms/ios/Museum/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423076085.464748
+e423076085.513469
+r1
+xCompileC
+xbuild/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/main.o
+x/Users/yachilin/Desktop/museum/platforms/ios/Museum/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/yachilin/Desktop/museum/platforms/ios/Museum/main.m187"[1mCompileC[0m build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/main.o [1mMuseum/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler053277f5a037b941^e57a83f5a037b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/yachilin/Desktop/museum/platforms/ios/Museum/main.m0000000000000000^3530"[1mCompileC[0m build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/main.o [1mMuseum/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yachilin/Desktop/museum/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-generated-files.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-own-target-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-all-target-headers.hmap -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-project-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/usr/local/lib/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/UninstalledProducts/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources/i386 -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources -F/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -include /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch -MMD -MT dependencies -MF /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/main.dia -c /Users/yachilin/Desktop/museum/platforms/ios/Museum/main.m -o /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/main.o36"DCA58A4F-A2A4-4D45-8FCD-15E335A21185-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCompileXIB /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.xib
+s423076081.370687
+e423076084.710852
+r1
+xCompileXIB
+x/Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.xib
+o2014-05-30 01:08:03.489 Interface Builder Cocoa Touch Tool[2275:303] CFPreferences: user home directory at file:///Users/yachilin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.xib64"[1mCompileXIB[0m [1mMuseum/Classes/MainViewController.xib[0m3e065ff1a037b941^70ecb5f4a037b941^-232"2014-05-30 01:08:03.489 Interface Builder Cocoa Touch Tool[2275:303] CFPreferences: user home directory at file:///Users/yachilin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@89"file:///Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.xib0000000000000000^809"[1mCompileXIB[0m [1mMuseum/Classes/MainViewController.xib[0m    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/MainViewController.nib /Users/yachilin/Desktop/museum/platforms/ios/Museum/Classes/MainViewController.xib36"F2214ACB-07CE-4FA9-B49B-49A1D365BF26-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCopyStringsFile /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/de.lproj/Localizable.strings Museum/Resources/de.lproj/Localizable.strings
+s423076081.379183
+e423076081.381998
+r1
+xCopyStringsFile
+x/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/de.lproj/Localizable.strings
+xMuseum/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Museum/Resources/de.lproj/Localizable.strings124"[1mCopyStringsFile[0m build/emulator/Museum.app/de.lproj/Localizable.strings Museum/Resources/de.lproj/Localizable.strings814261f1a037b941^ab0562f1a037b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/de.lproj/Localizable.strings0000000000000000^606"[1mCopyStringsFile[0m build/emulator/Museum.app/de.lproj/Localizable.strings Museum/Resources/de.lproj/Localizable.strings    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/de.lproj -- Museum/Resources/de.lproj/Localizable.strings36"2515665D-E045-4E9F-A3AA-1121213DEB27-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCopyStringsFile /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/en.lproj/Localizable.strings Museum/Resources/en.lproj/Localizable.strings
+s423076081.366950
+e423076081.372757
+r1
+xCopyStringsFile
+x/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/en.lproj/Localizable.strings
+xMuseum/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Museum/Resources/en.lproj/Localizable.strings124"[1mCopyStringsFile[0m build/emulator/Museum.app/en.lproj/Localizable.strings Museum/Resources/en.lproj/Localizable.strings30125ef1a037b941^b9a75ff1a037b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/en.lproj/Localizable.strings0000000000000000^606"[1mCopyStringsFile[0m build/emulator/Museum.app/en.lproj/Localizable.strings Museum/Resources/en.lproj/Localizable.strings    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/en.lproj -- Museum/Resources/en.lproj/Localizable.strings36"EB091DD4-4F77-4C0D-B4B5-937C4984A745-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/CDVNotification.bundle build/emulator/Museum.app/CDVNotification.bundle
+s423558953.645221
+e423558953.647391
+r1
+xCpResource
+xMuseum/Resources/CDVNotification.bundle
+xbuild/emulator/Museum.app/CDVNotification.bundle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/emulator/Museum.app/CDVNotification.bundle107"[1mCpResource[0m Museum/Resources/CDVNotification.bundle build/emulator/Museum.app/CDVNotification.bundle2f4da529ff3eb941^94bda529ff3eb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/CDVNotification.bundle0034cc64deffdf42^638"[1mCpResource[0m Museum/Resources/CDVNotification.bundle build/emulator/Museum.app/CDVNotification.bundle    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/CDVNotification.bundle /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"76931F3F-F084-478F-A691-105D184F8040-
+b1E75D6AE-2E23-42BA-A213-A28873130C61
+
+CCpResource Museum/Resources/icons/icon-40.png build/emulator/Museum.app/icon-40.png
+s423076081.417660
+e423076081.420987
+r1
+xCpResource
+xMuseum/Resources/icons/icon-40.png
+xbuild/emulator/Museum.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Museum.app/icon-40.png91"[1mCpResource[0m Museum/Resources/icons/icon-40.png build/emulator/Museum.app/icon-40.png5b076bf1a037b941^ed0b6cf1a037b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-40.png003498abddffdf42^617"[1mCpResource[0m Museum/Resources/icons/icon-40.png build/emulator/Museum.app/icon-40.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-40.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"21AC8ADE-6CFD-4C5C-9B84-1163C27EECFE-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-40@2x.png build/emulator/Museum.app/icon-40@2x.png
+s423076081.356026
+e423076081.358461
+r1
+xCpResource
+xMuseum/Resources/icons/icon-40@2x.png
+xbuild/emulator/Museum.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Museum.app/icon-40@2x.png97"[1mCpResource[0m Museum/Resources/icons/icon-40@2x.png build/emulator/Museum.app/icon-40@2x.pngde3e5bf1a037b941^bb0b5cf1a037b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-40@2x.png003498abddffdf42^626"[1mCpResource[0m Museum/Resources/icons/icon-40@2x.png build/emulator/Museum.app/icon-40@2x.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-40@2x.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"51A73B3E-3F71-4D11-8057-20C6699E8C57-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-50.png build/emulator/Museum.app/icon-50.png
+s423076081.373020
+e423076081.376064
+r1
+xCpResource
+xMuseum/Resources/icons/icon-50.png
+xbuild/emulator/Museum.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Museum.app/icon-50.png91"[1mCpResource[0m Museum/Resources/icons/icon-50.png build/emulator/Museum.app/icon-50.pnge9985ff1a037b941^dc7f60f1a037b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-50.png003498abddffdf42^617"[1mCpResource[0m Museum/Resources/icons/icon-50.png build/emulator/Museum.app/icon-50.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-50.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"8BD9E61A-39AE-4980-93B0-D1374DD7D784-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-50@2x.png build/emulator/Museum.app/icon-50@2x.png
+s423076081.434998
+e423076081.437900
+r1
+xCpResource
+xMuseum/Resources/icons/icon-50@2x.png
+xbuild/emulator/Museum.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Museum.app/icon-50@2x.png97"[1mCpResource[0m Museum/Resources/icons/icon-50@2x.png build/emulator/Museum.app/icon-50@2x.pnge2776ff1a037b941^475470f1a037b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-50@2x.png003498abddffdf42^626"[1mCpResource[0m Museum/Resources/icons/icon-50@2x.png build/emulator/Museum.app/icon-50@2x.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-50@2x.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"CC23B7B8-1EE3-4D89-AAB5-8C8464695FBA-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-60.png build/emulator/Museum.app/icon-60.png
+s423076081.425207
+e423076081.427781
+r1
+xCpResource
+xMuseum/Resources/icons/icon-60.png
+xbuild/emulator/Museum.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Museum.app/icon-60.png91"[1mCpResource[0m Museum/Resources/icons/icon-60.png build/emulator/Museum.app/icon-60.pngbef66cf1a037b941^1bbe6df1a037b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-60.png003498abddffdf42^617"[1mCpResource[0m Museum/Resources/icons/icon-60.png build/emulator/Museum.app/icon-60.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-60.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"44AF4418-A51B-4612-B799-4D318FBD5EEA-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-60@2x.png build/emulator/Museum.app/icon-60@2x.png
+s423076081.376348
+e423076081.378891
+r1
+xCpResource
+xMuseum/Resources/icons/icon-60@2x.png
+xbuild/emulator/Museum.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Museum.app/icon-60@2x.png97"[1mCpResource[0m Museum/Resources/icons/icon-60@2x.png build/emulator/Museum.app/icon-60@2x.png437460f1a037b941^da0361f1a037b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-60@2x.png003498abddffdf42^626"[1mCpResource[0m Museum/Resources/icons/icon-60@2x.png build/emulator/Museum.app/icon-60@2x.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-60@2x.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"F365D8C5-9C8C-4E80-A9CF-C41496914D48-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-72.png build/emulator/Museum.app/icon-72.png
+s423076081.360580
+e423076081.365672
+r1
+xCpResource
+xMuseum/Resources/icons/icon-72.png
+xbuild/emulator/Museum.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Museum.app/icon-72.png91"[1mCpResource[0m Museum/Resources/icons/icon-72.png build/emulator/Museum.app/icon-72.png36cc5cf1a037b941^f0855df1a037b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-72.png003498abddffdf42^617"[1mCpResource[0m Museum/Resources/icons/icon-72.png build/emulator/Museum.app/icon-72.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-72.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"FC2D35D3-11BD-4AC1-8168-D3CDD70D10C6-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-72@2x.png build/emulator/Museum.app/icon-72@2x.png
+s423076081.441892
+e423076081.444084
+r1
+xCpResource
+xMuseum/Resources/icons/icon-72@2x.png
+xbuild/emulator/Museum.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Museum.app/icon-72@2x.png97"[1mCpResource[0m Museum/Resources/icons/icon-72@2x.png build/emulator/Museum.app/icon-72@2x.png3a3b71f1a037b941^e4be71f1a037b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-72@2x.png003498abddffdf42^626"[1mCpResource[0m Museum/Resources/icons/icon-72@2x.png build/emulator/Museum.app/icon-72@2x.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-72@2x.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"C98DA947-9F37-44D8-8DB8-5D2F38C549F0-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-76.png build/emulator/Museum.app/icon-76.png
+s423076081.355457
+e423076081.358983
+r1
+xCpResource
+xMuseum/Resources/icons/icon-76.png
+xbuild/emulator/Museum.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Museum.app/icon-76.png91"[1mCpResource[0m Museum/Resources/icons/icon-76.png build/emulator/Museum.app/icon-76.png857d5bf1a037b941^581a5cf1a037b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-76.png003498abddffdf42^617"[1mCpResource[0m Museum/Resources/icons/icon-76.png build/emulator/Museum.app/icon-76.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-76.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"5810705F-93E3-4920-B64B-E8D82E83CB56-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-76@2x.png build/emulator/Museum.app/icon-76@2x.png
+s423076081.438178
+e423076081.441608
+r1
+xCpResource
+xMuseum/Resources/icons/icon-76@2x.png
+xbuild/emulator/Museum.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Museum.app/icon-76@2x.png97"[1mCpResource[0m Museum/Resources/icons/icon-76@2x.png build/emulator/Museum.app/icon-76@2x.pngc34770f1a037b941^134871f1a037b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-76@2x.png003498abddffdf42^626"[1mCpResource[0m Museum/Resources/icons/icon-76@2x.png build/emulator/Museum.app/icon-76@2x.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-76@2x.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"E778EA69-CD8F-4A1D-8A78-44B45012BFDA-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-small.png build/emulator/Museum.app/icon-small.png
+s423076081.382286
+e423076081.384831
+r1
+xCpResource
+xMuseum/Resources/icons/icon-small.png
+xbuild/emulator/Museum.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Museum.app/icon-small.png97"[1mCpResource[0m Museum/Resources/icons/icon-small.png build/emulator/Museum.app/icon-small.pngf4f861f1a037b941^488862f1a037b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-small.png003498abddffdf42^626"[1mCpResource[0m Museum/Resources/icons/icon-small.png build/emulator/Museum.app/icon-small.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-small.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"9AE31C1F-DCE4-4798-B2A9-30E5FADA5B4D-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon-small@2x.png build/emulator/Museum.app/icon-small@2x.png
+s423076081.410830
+e423076081.414472
+r1
+xCpResource
+xMuseum/Resources/icons/icon-small@2x.png
+xbuild/emulator/Museum.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Museum.app/icon-small@2x.png103"[1mCpResource[0m Museum/Resources/icons/icon-small@2x.png build/emulator/Museum.app/icon-small@2x.png674869f1a037b941^da536af1a037b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon-small@2x.png003498abddffdf42^635"[1mCpResource[0m Museum/Resources/icons/icon-small@2x.png build/emulator/Museum.app/icon-small@2x.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon-small@2x.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"F3382A40-9597-438C-AB9B-A3E62B3FEC19-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon.png build/emulator/Museum.app/icon.png
+s423076081.360736
+e423076081.364055
+r1
+xCpResource
+xMuseum/Resources/icons/icon.png
+xbuild/emulator/Museum.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/emulator/Museum.app/icon.png85"[1mCpResource[0m Museum/Resources/icons/icon.png build/emulator/Museum.app/icon.png43745cf1a037b941^7f335df1a037b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon.png003498abddffdf42^608"[1mCpResource[0m Museum/Resources/icons/icon.png build/emulator/Museum.app/icon.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"1D60079C-7DAA-4031-AA25-FA8A266425F8-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/icons/icon@2x.png build/emulator/Museum.app/icon@2x.png
+s423076081.364338
+e423076081.368584
+r1
+xCpResource
+xMuseum/Resources/icons/icon@2x.png
+xbuild/emulator/Museum.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Museum.app/icon@2x.png91"[1mCpResource[0m Museum/Resources/icons/icon@2x.png build/emulator/Museum.app/icon@2x.png6c5e5df1a037b941^3e415ef1a037b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/icon@2x.png003498abddffdf42^617"[1mCpResource[0m Museum/Resources/icons/icon@2x.png build/emulator/Museum.app/icon@2x.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/icons/icon@2x.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"105BD4CD-36EF-4C57-A545-E70E1EB08892-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/splash/Default-568h@2x~iphone.png build/emulator/Museum.app/Default-568h@2x~iphone.png
+s423076081.431787
+e423076081.434722
+r1
+xCpResource
+xMuseum/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/Museum.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/Museum.app/Default-568h@2x~iphone.png122"[1mCpResource[0m Museum/Resources/splash/Default-568h@2x~iphone.png build/emulator/Museum.app/Default-568h@2x~iphone.png2fa56ef1a037b941^83896ff1a037b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default-568h@2x~iphone.png003498abddffdf42^664"[1mCpResource[0m Museum/Resources/splash/Default-568h@2x~iphone.png build/emulator/Museum.app/Default-568h@2x~iphone.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default-568h@2x~iphone.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"B8D1050E-25AD-4D92-BE4D-BD0E6779CECF-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Museum.app/Default-Landscape@2x~ipad.png
+s423076081.386471
+e423076081.398474
+r1
+xCpResource
+xMuseum/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/Museum.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/Museum.app/Default-Landscape@2x~ipad.png128"[1mCpResource[0m Museum/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Museum.app/Default-Landscape@2x~ipad.png130c63f1a037b941^191f66f1a037b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default-Landscape@2x~ipad.png003498abddffdf42^673"[1mCpResource[0m Museum/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Museum.app/Default-Landscape@2x~ipad.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default-Landscape@2x~ipad.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"336056C0-25F2-40DD-B1E5-7C80FC3A0346-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/splash/Default-Landscape~ipad.png build/emulator/Museum.app/Default-Landscape~ipad.png
+s423076081.398797
+e423076081.406487
+r1
+xCpResource
+xMuseum/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/Museum.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/Museum.app/Default-Landscape~ipad.png122"[1mCpResource[0m Museum/Resources/splash/Default-Landscape~ipad.png build/emulator/Museum.app/Default-Landscape~ipad.png869067f1a037b941^1a5368f1a037b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default-Landscape~ipad.png003498abddffdf42^664"[1mCpResource[0m Museum/Resources/splash/Default-Landscape~ipad.png build/emulator/Museum.app/Default-Landscape~ipad.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default-Landscape~ipad.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"1BB99DE0-1D2F-418D-95CE-A5B228DCB574-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Museum.app/Default-Portrait@2x~ipad.png
+s423076081.406838
+e423076081.410537
+r1
+xCpResource
+xMuseum/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/Museum.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/emulator/Museum.app/Default-Portrait@2x~ipad.png126"[1mCpResource[0m Museum/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Museum.app/Default-Portrait@2x~ipad.png564568f1a037b941^7c6269f1a037b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default-Portrait@2x~ipad.png003498abddffdf42^670"[1mCpResource[0m Museum/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Museum.app/Default-Portrait@2x~ipad.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default-Portrait@2x~ipad.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"99941C41-0B59-4D6F-B793-A26A93F11E4F-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/splash/Default-Portrait~ipad.png build/emulator/Museum.app/Default-Portrait~ipad.png
+s423076081.414747
+e423076081.417390
+r1
+xCpResource
+xMuseum/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/Museum.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/emulator/Museum.app/Default-Portrait~ipad.png120"[1mCpResource[0m Museum/Resources/splash/Default-Portrait~ipad.png build/emulator/Museum.app/Default-Portrait~ipad.pngaa476af1a037b941^e3166bf1a037b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default-Portrait~ipad.png003498abddffdf42^661"[1mCpResource[0m Museum/Resources/splash/Default-Portrait~ipad.png build/emulator/Museum.app/Default-Portrait~ipad.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default-Portrait~ipad.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"8BD6C3E0-28D9-411B-B076-17F80FA78063-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/splash/Default@2x~iphone.png build/emulator/Museum.app/Default@2x~iphone.png
+s423076081.421321
+e423076081.424905
+r1
+xCpResource
+xMuseum/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/Museum.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/emulator/Museum.app/Default@2x~iphone.png112"[1mCpResource[0m Museum/Resources/splash/Default@2x~iphone.png build/emulator/Museum.app/Default@2x~iphone.png09fa6bf1a037b941^da036df1a037b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default@2x~iphone.png003498abddffdf42^649"[1mCpResource[0m Museum/Resources/splash/Default@2x~iphone.png build/emulator/Museum.app/Default@2x~iphone.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default@2x~iphone.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"859AAA6F-7F5B-475E-8704-1D86B5827272-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CCpResource Museum/Resources/splash/Default~iphone.png build/emulator/Museum.app/Default~iphone.png
+s423076081.428050
+e423076081.431507
+r1
+xCpResource
+xMuseum/Resources/splash/Default~iphone.png
+xbuild/emulator/Museum.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/Museum.app/Default~iphone.png106"[1mCpResource[0m Museum/Resources/splash/Default~iphone.png build/emulator/Museum.app/Default~iphone.png36b06df1a037b941^ffb36ef1a037b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Default~iphone.png003498abddffdf42^640"[1mCpResource[0m Museum/Resources/splash/Default~iphone.png build/emulator/Museum.app/Default~iphone.png    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yachilin/Desktop/museum/platforms/ios/Museum/Resources/splash/Default~iphone.png /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"52ED676E-9717-49FB-A30B-A9670A2D595C-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CGenerateDSYMFile /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app.dSYM /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Museum
+s423559062.066548
+e423559062.232762
+r1
+xGenerateDSYMFile
+x/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app.dSYM
+x/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Museum
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generate /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app.dSYM96"[1mGenerateDSYMFile[0m [1mbuild/emulator/Museum.app.dSYM[0m build/emulator/Museum.app/Museum3d271196ff3eb941^d5b43b96ff3eb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app.dSYM/0000000000000000^616"[1mGenerateDSYMFile[0m [1mbuild/emulator/Museum.app.dSYM[0m build/emulator/Museum.app/Museum    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Museum -o /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app.dSYM36"9DBED5F7-2B41-416C-973B-29C941EEC28E-
+bBB1E0605-4BC0-424D-B575-6EC6ECFD9641
+
+CLd /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Museum normal i386
+s423559061.914027
+e423559062.063935
+r1
+xLd
+x/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Museum
+xnormal
+xi386
+d/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/Museum.LinkFileList
+d/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/main.o
+d/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/AppDelegate.o
+d/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/MainViewController.o
+d/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/EstimoteBeacons.o
+d/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/CDVNotification.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons/libEstimoteSDK.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Link /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Museum55"[1mLd[0m build/emulator/Museum.app/Museum normal i3862d26ea95ff3eb941^c1ac1096ff3eb941^---0#0#1#--1840"[1mLd[0m build/emulator/Museum.app/Museum normal i386    cd /Users/yachilin/Desktop/museum/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -L/Users/yachilin/Desktop/museum/platforms/ios/Museum/Plugins/pl.makingwaves.estimotebeacons -F/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -filelist /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/Museum.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework AssetsLibrary /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -lEstimoteSDK -framework CoreBluetooth -framework SystemConfiguration -weak_framework AudioToolbox -Xlinker -dependency_info -Xlinker /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Objects-normal/i386/Museum_dependency_info.dat -o /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Museum36"73B74511-4307-4380-B215-51F523BD42C1-
+bBB1E0605-4BC0-424D-B575-6EC6ECFD9641
+
+CPhaseScriptExecution Copy\ www\ directory /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Script-304B58A110DAC018002A0835.sh
+s423559059.903040
+e423559061.538259
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m1.563s
+ouser	0m0.401s
+osys	0m0.709s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'138"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Museum.build/Debug-iphonesimulator/Museum.build/Script-304B58A110DAC018002A0835.sh1748e893ff3eb941^c5ff8995ff3eb941^-42"real	0m1.563suser	0m0.401ssys	0m0.709s3(21%IDEActivityLogMessage2@14"real	0m1.563s-423559061#1#14#-0#-----2@14"user	0m0.401s-423559061#15#14#-0#-----2@13"sys	0m0.709s-423559061#29#13#-0#-----0#0#1#--340"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Museum.build/Debug-iphonesimulator/Museum.build/Script-304B58A110DAC018002A0835.sh    cd /Users/yachilin/Desktop/museum/platforms/ios    /bin/sh -c /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Script-304B58A110DAC018002A0835.sh36"21B3F258-E321-4E19-812E-49CBCF525C95-
+bBB1E0605-4BC0-424D-B575-6EC6ECFD9641
+
+CProcessInfoPlistFile /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Info.plist /Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Info.plist
+s423559059.893381
+e423559059.898451
+r1
+xProcessInfoPlistFile
+x/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Info.plist
+x/Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Process /Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Info.plist98"[1mProcessInfoPlistFile[0m build/emulator/Museum.app/Info.plist [1mMuseum/Museum-Info.plist[0mc427e593ff3eb941^47ffe793ff3eb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Info.plist0000000000000000^698"[1mProcessInfoPlistFile[0m build/emulator/Museum.app/Info.plist [1mMuseum/Museum-Info.plist[0m    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Info.plist -genpkginfo /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app/Info.plist36"CCBA95FF-99C2-435F-B478-92F993CD7180-
+bBB1E0605-4BC0-424D-B575-6EC6ECFD9641
+
+CProcessPCH /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch.pch Museum/Museum-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423076084.714264
+e423076085.462182
+r1
+xProcessPCH
+x/var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch.pch
+xMuseum/Museum-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Museum/Museum-Prefix.pch294"[1mProcessPCH[0m /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch.pch Museum/Museum-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileraf07b7f4a037b941^ce5276f5a037b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Prefix.pch0000000000000000^3634"[1mProcessPCH[0m /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch.pch Museum/Museum-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yachilin/Desktop/museum/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-generated-files.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-own-target-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-all-target-headers.hmap -iquote /Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/Museum-project-headers.hmap -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/usr/local/lib/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/UninstalledProducts/include -I/Users/yachilin/Desktop/museum/platforms/ios/build/emulator -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources/i386 -I/Users/yachilin/Desktop/museum/platforms/ios/build/Museum.build/Debug-iphonesimulator/Museum.build/DerivedSources -F/Users/yachilin/Desktop/museum/platforms/ios/build/emulator --serialize-diagnostics /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch.d -c /Users/yachilin/Desktop/museum/platforms/ios/Museum/Museum-Prefix.pch -o /var/folders/bj/k5bgp6hn5lz0rjy85xkwsd880000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Museum-Prefix-doilagprudyvcggaxxbgyzrzkjyr/Museum-Prefix.pch.pch36"DC19536B-4B2E-4502-BFA4-AA24EE241463-
+b37B29E75-8BAF-4BCC-A35E-2F3962C06A1C
+
+CTouch /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app
+s423559062.235586
+e423559062.249303
+r1
+xTouch
+x/Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app39"[1mTouch[0m build/emulator/Museum.app8b6b3c96ff3eb941^4ddb3f96ff3eb941^---0#0#1#--395"[1mTouch[0m build/emulator/Museum.app    cd /Users/yachilin/Desktop/museum/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/yachilin/Desktop/museum/platforms/ios/build/emulator/Museum.app36"FF497C41-E266-4CF8-9759-0FAD69464DD6-
+bBB1E0605-4BC0-424D-B575-6EC6ECFD9641
+
