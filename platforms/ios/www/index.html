@@ -31,7 +31,6 @@
 
         <script src="js/jquery.js"></script>
         <script src="js/jquery.mobile-1.4.2.min.js"></script>
-        <script src="js/jquery.fbpagestarter.min.js"></script>
     </head>
     <body class="">
         <script type="text/javascript" src="cordova.js"></script>
@@ -421,40 +420,6 @@
             if (navigator.userAgent.match(/iPad;.*CPU.*OS 7_\d/i)) {
                 document.getElementsByTagName("html")[0].style.height = window.innerHeight +"px !important";
             }
-        </script>
-        <script>
-            $(function(){
-              $(document).fbStarter({
-                appId              : '1496568253892641',
-                locales            : 'zh_tw',
-                canvasUrl          : '//comfort.cl',
-                dialogSuccess      : function(){
-                  //Custome callback function for dialog submit success
-                  console.log('dialog success');
-                },
-                dialogFail         : function(){
-                  //Custome callback function when user close dialog without submit
-                  console.log('dialog canceled');
-                },
-                permissionsSuccess : function(){
-                  //Custome callback function for authentication success
-                  FB.api('/me', function(response) {
-                    //Fetch user data
-                    var userName =  response.name,
-                        userID =  response.id,
-                        userBirthday =  response.birthday,
-                        userLocale =  response.locale,
-                        userEmail =  response.email,
-                        userLink =  response.link,
-                        userPicture = 
-                        '<img src="//graph.facebook.com/'+response.username+'/picture">',
-                        userData = userName + userID + userBirthday + userLocale + userEmail
-                                   + userLink + userPicture;
-                    console.log(userData);
-                  });
-                }
-              });
-            });
         </script>
 
         <script>

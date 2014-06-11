@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>E7857F8A-9D04-4534-8FF2-A4B26971950C</string>
+	<string>5491409B-8CE3-4C9E-9EDA-A97E305F40AB</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Museum</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7CCAF30A-0604-4C0E-973C-30A08FB6ABB3</key>
-		<string>https://github.com/tachun/museum-app/</string>
+		<key>43812B14-F3BC-4F94-A11D-FEB4A271DFB5</key>
+		<string>ssh://github.com/tachun/museum-app.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Museum.xcodeproj/project.xcworkspace</string>
+	<string>platforms/ios/Museum.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7CCAF30A-0604-4C0E-973C-30A08FB6ABB3</key>
-		<string>../..</string>
+		<key>43812B14-F3BC-4F94-A11D-FEB4A271DFB5</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/tachun/museum-app/</string>
+	<string>ssh://github.com/tachun/museum-app.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7CCAF30A-0604-4C0E-973C-30A08FB6ABB3</string>
+	<string>43812B14-F3BC-4F94-A11D-FEB4A271DFB5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7CCAF30A-0604-4C0E-973C-30A08FB6ABB3</string>
+			<string>43812B14-F3BC-4F94-A11D-FEB4A271DFB5</string>
 			<key>IDESourceControlWCCName</key>
-			<string>20140611</string>
+			<string>museum-app</string>
 		</dict>
 	</array>
 </dict>
