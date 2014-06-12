@@ -1,22 +1,4 @@
 <!DOCTYPE html>
-<!--
- Licensed to the Apache Software Foundation (ASF) under one
- or more contributor license agreements.  See the NOTICE file
- distributed with this work for additional information
- regarding copyright ownership.  The ASF licenses this file
- to you under the Apache License, Version 2.0 (the
- "License"); you may not use this file except in compliance
- with the License.  You may obtain a copy of the License at
-
- http://www.apache.org/licenses/LICENSE-2.0
-
- Unless required by applicable law or agreed to in writing,
- software distributed under the License is distributed on an
- "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- KIND, either express or implied.  See the License for the
- specific language governing permissions and limitations
- under the License.
- -->
 <html>
     <head>
         <meta charset="utf-8" />
@@ -24,6 +6,14 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi" />
         <title>Taiwan Museum</title>
+
+        <meta property="og:title" content="Fourislands exhibtion" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://apps.facebook.com/1496568253892641/" />
+        <meta property="og:site_name" content="Fourislands exhibtion" />
+        <meta property="og:image" content="http://www.facebookmobileweb.com/hackbook/img/facebook_icon_large.png"/>
+        <meta property="fb:admins" content="1546352844" />
+
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" />
         <link rel="stylesheet" href="css/jqm/jquery.mobile-1.4.2.min.css" />
         <link rel="stylesheet" href="css/animate.css" />
@@ -33,14 +23,30 @@
         <script src="js/jquery.mobile-1.4.2.min.js"></script>
     </head>
     <body class="">
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        <div id="fb-root"></div>
+
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+
+        <script src="phonegap.js"></script>
+        <!-- cordova facebook plugin -->
+        <script src="cdv-plugin-fb-connect.js"></script>
+        <!-- facebook js sdk -->
+        <script src="facebook-js-sdk.js"></script>
+
+
+
+
+
+        <div id="log"></div>
+        <div id="data">loading ...</div>
+
 
         <div id="page-login" class="page-login" data-quicklinks="true" data-role="page">
             <div role="main" class="ui-content">
                 <div style="text-align:center">
                     <p>
-                        <button class="fb-dialog ui-btn fb-btn" data-fbactiontype="permissions" data-permissions="email,user_birthday">Facebook 登入</button>
+                        <button class="ui-btn fb-btn" onclick="login()">Facebook 登入</button>
                     </p>
                     <p><a class="skip-btn" href="#page-main">直接登入</a></p>
                 </div>
@@ -97,6 +103,10 @@
                         </a>
                     </li>
                 </ul>
+                <div class="show_when_connected">
+                    <div id="login_button" class="button" onclick="logout()" />Logout</div>
+                    <div id="login_button" class="button" onclick="uninstallApp()" />Uninstall app</div>
+                </div>
                 <div class="msg"></div>
             </div>
         </div>
