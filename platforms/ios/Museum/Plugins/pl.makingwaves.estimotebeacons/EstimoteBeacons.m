@@ -436,7 +436,7 @@
     NSMutableDictionary* props = [NSMutableDictionary dictionaryWithCapacity:16];
     NSNumber* major = beacon.major;
     NSNumber* minor = beacon.minor;
-    NSNumber* rssi = [NSNumber numberWithInt:beacon.rssi];
+    NSNumber* rssi = [NSNumber numberWithInteger: beacon.rssi];
     
     if(major == nil) {
         major = beacon.major;
@@ -445,7 +445,7 @@
         minor = beacon.minor;
     }
     if(rssi == nil) {
-        rssi = [NSNumber numberWithInt:beacon.rssi];
+        rssi = [NSNumber numberWithInteger:beacon.rssi];
     }
     
     [props setValue:beacon.batteryLevel forKey:@"batteryLevel"];
