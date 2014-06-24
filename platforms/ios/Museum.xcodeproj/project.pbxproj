@@ -52,6 +52,7 @@
 		43BB18286CCD41C5B1843494 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86123D4115ED43BDBDD3BB30 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E0C02D6DF20F4A54AE018CA4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE977D4A1E5F4F25A7775B58 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C5934E056950454F818A5AEB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A3FEAE8EE74897B1D6091A /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A675F30F36CC47919B2B331E /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D0CF905231411B838A3C93 /* CDVDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +139,8 @@
 		86123D4115ED43BDBDD3BB30 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Accounts.framework"; path = "System/Library/Frameworks/Accounts.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		BE977D4A1E5F4F25A7775B58 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		F8A3FEAE8EE74897B1D6091A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		80D0CF905231411B838A3C93 /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		61C3B33B940B498CBD26594D /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +293,8 @@
 				9CBCC99807F347988DA0AB48 /* CDVNotification.h */,
 				7CDCF1863F9042A8A8567B6D /* FacebookConnectPlugin.m */,
 				C6251D9341094E3BA8523551 /* FacebookConnectPlugin.h */,
+				80D0CF905231411B838A3C93 /* CDVDevice.m */,
+				61C3B33B940B498CBD26594D /* CDVDevice.h */,
 			);
 			name = Plugins;
 			path = Museum/Plugins;
@@ -488,6 +493,7 @@
 				7625C627A5FC47659C19E239 /* EstimoteBeacons.m in Sources */,
 				677AAA3D1B2A4D2BA65B584C /* CDVNotification.m in Sources */,
 				9727C242B38844FA8A85FB08 /* FacebookConnectPlugin.m in Sources */,
+				A675F30F36CC47919B2B331E /* CDVDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

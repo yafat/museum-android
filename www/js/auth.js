@@ -90,7 +90,18 @@ function checkUserPermissions(permissionToCheck) {
 
 //Prompt the user to login and ask for the 'email' permission
 function promptLogin() {
-    FB.login(null, {
+    FB.login(function(response){
+		if (response.authResponse) {
+			console.log('login success! get user information... ');
+			FB.api('/me', function(response) {
+				navigator.notification.alert(response.name+'，歡迎進入本館!', function(){
+					location.href='main.html';
+				}, '登入成功');
+			});
+		} else {
+			navigator.notification.alert('Facebook登入失敗或未授權，請重新再試一次。', null, '登入失敗');
+		}
+	}, {
         scope: 'email'
     });
 }

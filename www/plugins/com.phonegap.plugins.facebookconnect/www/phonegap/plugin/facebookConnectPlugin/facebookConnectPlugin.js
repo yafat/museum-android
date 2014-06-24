@@ -10,7 +10,10 @@ cordova.define("com.phonegap.plugins.facebookconnect.FacebookConnectPlugin", fun
 var exec = require("cordova/exec");
 
 var facebookConnectPlugin = {
-
+	init : function(){
+	
+	},
+	
     getLoginStatus : function (s, f) {
         cordova.exec(s, f, "FacebookConnectPlugin", "getLoginStatus", []);
     },

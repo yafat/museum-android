@@ -1,52 +1,47 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
 var appstatus = 'init';
 var counter = 0;
 var flags = {};
-var mybeacons = {"12966,30848":"A","45653,10506":"B","59794,6000":"C","46920,39808":"D","5616,59737":"E","7952,2822":"F","30000,59685":"G","6138,4433":"H"};
-var app = {
-    // Application Constructor
-    initialize: function() {
-        this.bindEvents();
-    },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-    },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicity call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-    },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-		appstatus = 'ready';
-		showpage('page-login');
-		init();
-    }
-};
+var rssis = {};
+var errors = {};
+var mybeacons = {"6138,4433":"A","45653,10506":"B","59794,6000":"C","46920,39808":"D","5616,59737":"E","7952,2822":"F","30000,59685":"G"};
 function init(){
+	/**/
+	try{
+		var dinfo = 'Device Name: '     + device.name     + '<br />';
+		dinfo += 'Device cordova: '     + device.cordova     + '<br />';
+		dinfo += 'Device model: '     + device.model     + '<br />';
+		dinfo += 'Device platform: '     + device.platform     + '<br />';
+		dinfo += 'Device uuid: '     + device.uuid     + '<br />';
+		dinfo += 'Device version: '     + device.version     + '<br />';
+		$('.msg').html(dinfo).show();
+	}catch(err){
+		alert(err.message);
+	}
+	
+	$.ajax({
+		url:'http://app.comfort.cl/init.php',
+		data:{ app:'museum', "device":dinfo },
+		type:'post',
+		timeout: 1000,
+		success: function(response){
+			var ret = $.parseJSON(response);
+			if(ret.data.mybeacons) mybeacons = ret.data.mybeacons;
+			get_beacons();
+		},
+		error: function(){
+			alert('error reading')
+			get_beacons();
+		}
+	});
+}
+
+function get_beacons(){
+	var str = '';
+	$.each(mybeacons, function(k, j){
+		str += k + '=' + j +'\n';
+	});
+	alert(str);
+	try{
 	// start looking for beacons
 	window.EstimoteBeacons.startRangingBeaconsInRegion(function () {
 		$('#msg').html('start Ranging!');
@@ -55,28 +50,64 @@ function init(){
 			window.EstimoteBeacons.getBeacons(function (data) {
 				var str='';
 				var bid = '';
+				var hasChange = false;
+				var rssi = 0;
 				$.each(data, function(i, n){
+					try{
 					bid = n.major + "," + n.minor;
-					if(typeof(mybeacons[bid]) == "string"){
-						if(parseInt(n.distance) < 3){
-							flags[bid]++;
-							if(flags[bid] > 1){
-								//$('.map-zone').removeClass('on');
-								$('#' + mybeacons[bid]).addClass('on');
-							}
+					rssi = parseFloat(n.rssi);
+					if(typeof(rssi) == "number" && rssi < 0  && typeof(mybeacons[bid]) == "string"){
+						if(!rssis[bid] || Math.abs(rssis[bid] - rssi) < 40  ){
+							rssis[bid] = rssi; //將前一個值記錄下來
 						}else{
-							$('#' + mybeacons[bid]).removeClass('on');
-							flags[bid] = 0;
+							rssis[bid] = null;
 						}
+						if(rssis[bid]){
+							if(flags[bid] == undefined || flags[bid] == "NaN" ) flags[bid] = 0;
+							if(typeof(rssi) == "number" && rssi < 0 && rssi > -80){
+								if( flags[bid] < 0) flags[bid] = 0;
+								str += mybeacons[bid] + " near <br />";
+								flags[bid]++;
+								if(flags[bid] > 2 && $('#map-' + mybeacons[bid]).hasClass('animated rubberBand') === false){
+									hasChange = true;
+									$('#map-' + mybeacons[bid]).addClass('animated rubberBand');
+									str += mybeacons[bid] + "in <br />";
+								}
+							}else{
+								str += mybeacons[bid] + " far <br />";
+								if(flags[bid] > 0) flags[bid] = 0;
+								flags[bid]--;
+								if(flags[bid] < -1 && $('#map-' + mybeacons[bid]).hasClass('animated rubberBand')){
+									$('#map-' + mybeacons[bid]).removeClass('animated rubberBand');
+									str += mybeacons[bid] + " out <br />";
+									hasChange = true;
+								}
+							}
+						}
+						str += mybeacons[bid] + "=" + n.rssi + " ( "+typeof(n.rssi)+")<br />";
 					}
-					str += bid + "=" + n.distance + "<br />";
+					}catch(err){
+						alert(err.message);
+					}
 				});
 				$('.msg').html('repeat for' + counter + 'times!<br />total'+ data.length+' beacons found! <br />' + str);
+				if(hasChange === true) $('.ui-page-active :jqmData(role=content)').trigger('create');
 			});
-		}, 1000);
+		}, 500);
 	});
+	}catch(e){
+		$('.msg').html('error !!!!');
+		alert('error!');
+		console.log(e);
+	}
 }
 function showpage(page){
 	$.mobile.navigate('#' + page);
 }
-
+function showobj(obj, type){
+	if(type == 'hide'){
+		$(obj).hide();
+	}else{
+		$(obj).show();
+	}
+}

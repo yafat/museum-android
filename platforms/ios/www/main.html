@@ -17,10 +17,13 @@
     <body class="">
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-
-
-
-
+		<script language="javascript">
+		$(function(){
+			document.addEventListener('deviceready', function(){
+				init();
+			}, false);
+		});
+		</script>
         <div data-role="page" id="page-main" class="page-main" data-quicklinks="true">
             <div role="main" class="ui-content">
                 <ul class="map-list">
@@ -60,7 +63,8 @@
                         </a>
                     </li>
                 </ul>
-                <div class="msg"></div>
+                <div class="msg" style="display:none"></div>
+				<div style="width:10px; height:10px; background:#ccc;" onclick="showobj('.msg')"></div>
             </div>
         </div>
 

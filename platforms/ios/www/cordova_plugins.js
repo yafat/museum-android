@@ -20,6 +20,13 @@ module.exports = [
         "clobbers": [
             "window.facebookConnectPlugin"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.device/www/device.js",
+        "id": "org.apache.cordova.device.device",
+        "clobbers": [
+            "device"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -27,7 +34,8 @@ module.exports.metadata =
 {
     "pl.makingwaves.estimotebeacons": "0.1.0",
     "org.apache.cordova.dialogs": "0.2.7",
-    "com.phonegap.plugins.facebookconnect": "0.5.1"
+    "com.phonegap.plugins.facebookconnect": "0.5.1",
+    "org.apache.cordova.device": "0.2.10"
 }
 // BOTTOM OF METADATA
 });

@@ -101,6 +101,10 @@
                         {
                             "xml": "<access origin=\"https://*.akamaihd.net\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -139,6 +143,9 @@
         "com.phonegap.plugins.facebookconnect": {
             "APP_ID": "1496568253892641",
             "APP_NAME": "Museum",
+            "PACKAGE_NAME": "cl.comfort.museum"
+        },
+        "org.apache.cordova.device": {
             "PACKAGE_NAME": "cl.comfort.museum"
         }
     },
