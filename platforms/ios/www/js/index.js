@@ -5,7 +5,7 @@ var rssis = {};
 var errors = {};
 var mybeacons = {"6138,4433":"A","45653,10506":"B","59794,6000":"C","46920,39808":"D","5616,59737":"E","7952,2822":"F","30000,59685":"G"};
 function init(){
-	/**/
+	/*
 	try{
 		var dinfo = 'Device Name: '     + device.name     + '<br />';
 		dinfo += 'Device cordova: '     + device.cordova     + '<br />';
@@ -17,7 +17,7 @@ function init(){
 	}catch(err){
 		alert(err.message);
 	}
-	
+	*/
 	$.ajax({
 		url:'http://app.comfort.cl/init.php',
 		data:{ app:'museum', "device":dinfo },
@@ -36,11 +36,6 @@ function init(){
 }
 
 function get_beacons(){
-	var str = '';
-	$.each(mybeacons, function(k, j){
-		str += k + '=' + j +'\n';
-	});
-	alert(str);
 	try{
 	// start looking for beacons
 	window.EstimoteBeacons.startRangingBeaconsInRegion(function () {
