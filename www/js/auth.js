@@ -20,7 +20,7 @@ function handleStatusChange(session) {
 
     if (session.authResponse) {
         //document.body.className = 'connected';
-
+        window.location.href = 'main.html';
         //Fetch user's id, name, and picture
         FB.api('/me', {
                 fields: 'name, picture'
