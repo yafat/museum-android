@@ -326,6 +326,18 @@
           <string>fb1496568253892641</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb1496568253892641</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb1496568253892641</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleVersion</key>
     <string>0.0.1</string>

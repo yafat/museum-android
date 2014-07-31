@@ -98,6 +98,7 @@ function get_beacons(){
 }
 function showpage(page){
 	$.mobile.navigate('#' + page);
+	playAudio();
 }
 function showobj(obj, type){
 	if(type == 'hide'){
@@ -105,4 +106,20 @@ function showobj(obj, type){
 	}else{
 		$(obj).show();
 	}
+}
+function playAudio() {
+	var url = 'sound.mp3';
+    // Play the audio file at url
+    var my_media = new Media(url,
+        // success callback
+        function () {
+            console.log("playAudio():Audio Success");
+        },
+        // error callback
+        function (err) {
+            console.log("playAudio():Audio Error: " + err);
+        }
+    );
+    // Play audio
+    my_media.play();
 }
