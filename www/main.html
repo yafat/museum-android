@@ -18,47 +18,47 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
 		<script language="javascript">
-		$(function(){
-			document.addEventListener('deviceready', function(){
-				init();
-			}, false);
-		});
+    		$(function(){
+    			document.addEventListener('deviceready', function(){
+    				init();
+    			}, false);
+    		});
 		</script>
         <div data-role="page" id="page-main" class="page-main" data-quicklinks="true">
             <div role="main" class="ui-content">
                 <ul class="map-list">
                     <li id="map-A">
-                        <a onclick="showpage('page-detail-a','A');" data-areaId="a">
+                        <a href="#" data-areaId="a">
                             <span>A</span>尋找南⽅四島
                         </a>
                     </li>
                     <li id="map-B">
-                        <a onclick="showpage('page-detail-b','B');" data-areaId="b">
+                        <a href="#" data-areaId="b">
                             <span>B</span>隱世的美麗秘境
                         </a>
                     </li>
                     <li id="map-C">
-                        <a onclick="showpage('page-detail-c','C');" data-areaId="c">
+                        <a href="#" data-areaId="c">
                             <span>C</span>神秘的玄武巨人
                         </a>
                     </li>
                     <li id="map-D">
-                        <a onclick="showpage('page-detail-d','D');" data-areaId="d">
+                        <a href="#" data-areaId="d">
                             秘境的園地<span>D</span>
                         </a>
                     </li>
                     <li id="map-E">
-                        <a onclick="showpage('page-detail-e','E');" data-areaId="e">
+                        <a href="#" data-areaId="e">
                             秘境島嶼的海底生態樂園<span>E</span>
                         </a>
                     </li>
                     <li id="map-F">
-                        <a onclick="showpage('page-detail-f','F');" data-areaId="f">
+                        <a href="#" data-areaId="f">
                             被遺忘的秘境風華<span>F</span>
                         </a>
                     </li>
                     <li id="map-G">
-                        <a onclick="showpage('page-detail-g','G');" data-areaId="g">
+                        <a href="#" data-areaId="g">
                             菊島淨土的回顧與前瞻<span>G</span>
                         </a>
                     </li>
@@ -424,32 +424,6 @@
             if (navigator.userAgent.match(/iPad;.*CPU.*OS 7_\d/i)) {
                 document.getElementsByTagName("html")[0].style.height = window.innerHeight +"px !important";
             }
-        </script>
-
-        <script>
-            $(function() {
-                $('.ui-link').on('click', function(){
-                    var areaId = $(this).attr('data-areaId');
-                    entryArea(areaId);
-                })
-
-                // 進入beacon區域時, 顯示該區相關資訊, ex. 進入a區時, 呼叫 entryArea('a')
-                function entryArea(areaId) {
-                  showpage('page-detail-'+areaId, areaId.toUpperCase());
-                  setTimeout(function(){
-                    var target = $('#page-detail-'+areaId);
-
-                    // Hide intro
-                    target.find('.intro').addClass("animated fadeOut").delay(200).queue(function(){
-                        $(this).addClass('hidden').dequeue();
-                    });
-                    // Show details
-                    target.find('.text-content').removeClass('hidden').addClass("animated fadeIn").delay(1000).queue(function(){
-                            $(this).removeClass("animated fadeIn").dequeue();
-                    });
-                  },3000);
-                }
-            });
         </script>
     </body>
 </html>
