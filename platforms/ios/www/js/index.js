@@ -24,7 +24,7 @@ function init() {
         dinfo += 'Device version: ' + device.version + '<br />';
         $('.msg').html(dinfo);
     } catch (err) {
-        alert(err.message);
+       
     }
 
     $.ajax({
@@ -41,7 +41,6 @@ function init() {
             get_beacons();
         },
         error: function() {
-            alert('error reading')
             get_beacons();
         }
     });
@@ -107,8 +106,6 @@ function get_beacons() {
             }, 500);
         });
     } catch (e) {
-        $('.msg').html('error !!!!');
-        alert('error!');
         console.log(e);
     }
 }
