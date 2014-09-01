@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:6
+-keep class cl.comfort.museum.Museum { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class com.radiusnetworks.ibeacon.IBeaconIntentProcessor { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.radiusnetworks.ibeacon.service.IBeaconService { <init>(...); }
+

@@ -1,0 +1,18 @@
+cordova.define("com.thinketg.plugin.ibeacongap.iBeaconGap", function(require, exports, module) { var exec = require('cordova/exec');
+
+exports.getBeacons = function(success, error) {
+    exec(success, error, "iBeaconGap", "getBeacons", []);
+};
+
+exports.stopScanning = function() {
+	var success = function(){};
+	var error = function(){};
+    exec(success, error, "iBeaconGap", "stopScanning", []);
+};
+
+exports.startScanning = function() {
+	var success = function(){};
+	var error = function(){};
+    exec(success, error, "iBeaconGap", "startScanning", []);
+};
+});
